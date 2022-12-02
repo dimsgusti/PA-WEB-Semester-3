@@ -1,0 +1,514 @@
+body{
+    background-color: black;
+}
+
+/* index.php */
+.navbar{
+    color: white;
+    max-width: auto;
+    height: 82px;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline;
+}
+
+.navbar a{
+    padding: 25px;
+    color: white;
+}
+
+.navbar a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: #343a40;
+}
+
+.navbarKiri{
+    margin-top: 15px;
+    float: left;
+}
+
+.navbarKanan{
+    margin-top: 15px;
+    float: right;
+    margin-right: 35px;
+}
+
+#imageIndex{
+    width: 250px;
+    padding: 25px;
+}
+
+.landingPage{
+    background-color: white;
+    height: 870px;
+}
+
+.landingPage h2{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.welcome{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 750px;
+    padding: 10px;
+}
+
+.welcome1{
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+.buy{
+    background: rgb(104, 144, 255);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 85px;
+    margin: auto;
+    opacity: 0.7;
+}
+
+.buy:hover{
+    opacity: 1;
+}
+
+
+.buy a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    margin-top: 70px;
+    background-color: black;
+}
+
+.footer p, li{
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+    opacity: 0.7;
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info p{
+    opacity: 0.7;
+}
+
+.info li{
+    opacity: 0.7;
+}
+
+/* adminLogin.php */
+.navbarTengah{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+/* login.php */
+#developer{
+    color: red;
+}
+
+#kembaliAdmin{
+    background-color: rgb(81, 162, 255);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.kembaliAdmin{
+    background-color: white;
+    padding: 25px;
+}
+
+.adminForm{
+    padding: 10px;
+    width: 450px;
+    height: 350px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.adminForm input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.login{
+    background-color: white;
+    height: 820px;
+    padding: 10px;
+}
+
+.logForm{
+    padding: 10px;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logForm input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.login h3{
+    text-align: center;
+}
+
+.logForm input[type=text]:focus, input[type=email]:focus, input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+.logBtn{
+    background-color: black;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.logBtn:hover{
+    opacity: 1;
+}
+
+.reg{
+    text-align: center;
+}
+
+.reg a{
+    color: black;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.reg a:hover{
+    opacity: 1;
+}
+
+/* registration.php */
+.registration{
+    background-color: white;
+    width: 100%;
+    height: 800px;
+    padding: 10px;
+}
+
+.registration h3{
+    text-align: center;
+}
+
+.regForm{
+    padding: 10px;
+    width: 450px;
+    height: 650px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.regForm input[type=text], input[type=email], input[type=password]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.regForm input[type=text]:focus, input[type=email]:focus, input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+.regBtn{
+    background-color: black;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.regBtn:hover{
+    opacity: 1;
+}
+
+.log{
+    text-align: center;
+}
+
+.log a{
+    color: black;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.log a:hover{
+    opacity: 1;
+}
+
+/* products.php */
+.productsPage{
+    background-color: white;
+    padding: 10px;
+}
+
+.catalog{
+    background-color: white;
+    height: 820px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter{
+    padding: 10px;
+}
+
+.filter input[type=text]{
+    width: 150px;
+    padding: 5px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+}
+
+.catalogCard{
+    border-radius: 10px;
+    width: 150px;
+    height: 280px;
+    margin: 10px;
+    text-align: center;
+    display: grid;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.catalogCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 9px 16px;
+}
+
+.catalogCard{
+    padding: 25px;
+    color: black;
+}
+
+.catalogCard a{
+    color: black;
+    text-decoration: none;
+}
+
+.cartSubmit {
+    background: rgb(104, 144, 255);
+    color: white;
+    border-color: rgb(104, 144, 255);
+    border-radius: 10px;
+    padding: 3px;
+    opacity: 0.7;
+}
+
+.cartSubmit:hover{
+    opacity: 1;
+}
+
+/* admin.php */
+.dashboard{
+    background-color: white;
+    height: 820px;
+    padding: 10px;
+    text-align: center;
+}
+
+.adminOption a{
+    background-color: rgb(87, 185, 255);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.adminOption li{
+    margin-top: 25px;
+}
+
+#btnAdmin{
+    color: black;
+}
+
+/* create.php */
+#adminCreateNavbar{
+    color: white;
+    max-width: auto;
+    height: 82px;
+    text-align: center;
+    padding: 15px;
+}
+
+#adminCreateNavbar li{
+    list-style: none;
+    display: inline;
+}
+
+#adminCreateNavbar a{
+    padding: 25px;
+    color: white;
+}
+
+#adminCreateNavbar a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+#adminCreateNavbar a:hover{
+    background-color: #343a40;
+}
+
+.adminCreate{
+    background-color: white;
+    height: 800px;
+    padding: 15px;
+}
+
+.adminCreate input[type=text], input[type=number], input[type=tel], input[type=file], input[type=month]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.adminCretae input[type=text]:focus, input[type=number]:focus, input[type=tel]:focus, input[type=file]:focus, input[type=month]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+/* buynow.php */
+.buyContainer{
+    background-color: white;
+    padding: 10px;  
+    height: 870px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tampilDetail{
+    /* margin: auto; */
+    max-width: 120px;
+    border-radius: 10px;
+    height: 230px;
+    text-align: center;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+}
+
+.buyForm{
+    float: right;
+    padding: 10px;
+    width: 450px;
+    height: 580px;
+    /* margin: auto; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10px;
+}
+
+.buyForm input[type=text], input[type=number], input[type=tel]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.buyForm input[type=text]:focus, input[type=number]:focus, input[type=tel]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+/* read.php */
+.readForm{
+    background-color: white;
+    color: black;
+    min-height: 870px;
+}
+
+.readForm table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid white;
+  }
+  
+  .readForm thead th:nth-child(1) {
+    width: 15%;
+  }
+  
+  .readForm thead th:nth-child(2) {
+    width: 10%;
+  }
+  
+  .readForm thead th:nth-child(3) {
+    width: 7.5%;
+  }
+  
+  .readForm thead th:nth-child(4) {
+    width: 17.5%;
+  }
+  
+  .readForm th, td {
+    padding: 10px;
+  }
+  
+  .readForm tbody{
+      text-align: center;
+  }
+
+/* update.php */
+.navbarUpdate{
+    color:   white;
+    max-width: auto;
+    height: 150px;
+    text-align: center;
+}
